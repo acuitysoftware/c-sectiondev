@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="579" height="1015" viewBox="0 0 579 1015">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.979" x2="0.976" y2="0.98" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9434f7"/>
+      <stop offset="0.053" stop-color="#8d32f0"/>
+      <stop offset="1" stop-color="#1e217d"/>
+    </linearGradient>
+  </defs>
+  <rect id="login-bg" width="579" height="1015" fill="url(#linear-gradient)"/>
+</svg>
