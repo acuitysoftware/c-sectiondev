@@ -114,6 +114,7 @@ class ChatAskQuestion extends Component
             }
 
 
+            dump('okk');
             dd($response);
 
             $this->chat->update([
