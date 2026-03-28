@@ -114,6 +114,7 @@ class ChatAskQuestion extends Component
             }
 
 
+            dd($response);
 
             $this->chat->update([
                 'reply_date' => now(),
