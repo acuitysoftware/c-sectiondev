@@ -113,7 +113,7 @@ class ChatAskQuestion extends Component
                 $answer = $msg['content'];
             }
 
-
+dd($response);
 
             $this->chat->update([
                 'reply_date' => now(),
