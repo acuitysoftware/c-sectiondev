@@ -30,6 +30,7 @@ class ChatGroupTest extends Component
     {
         $this->resetPage();
     }
+    
     public function mount()
     {
 
@@ -38,6 +39,15 @@ class ChatGroupTest extends Component
         $this->subjects = Subject::where('board_class_id', $this->user->board_class_id)->get();
 
         $this->recent_chats = Chat::with('subject')->whereNotNull('question')->where('user_id', $this->user->id)->orderBy('id', 'desc')->get();
+    }
+
+    public function gotoExam($id){
+        if($id == "1"){
+            return redirect()->route('user.GroupExam.exam',['slug' =>$this->user->group->slug, 'test_type' =>'weekly']);
+        }
+        else{
+            return redirect()->route('user.GroupExam.exam',['slug' =>$this->user->group->slug, 'test_type' =>'monthly']);
+        }
     }
     public function render()
     {

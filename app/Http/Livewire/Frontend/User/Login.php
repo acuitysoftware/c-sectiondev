@@ -50,7 +50,7 @@ class Login extends Component
                     $this->showToastr('error', 'Your email/password combination was incorrect', false);
                     return false;
                 }
-                dd('okk');
+               
             }
             else{
                 $credentials = ['email' => $user->email, 'password' => $this->password, 'active' => 1];

@@ -14,18 +14,17 @@
         </div>
     </div>
 
-    {{-- <div class="navarea mb-4">
-          <div class="filter_L">
-            Ends in :
-            <select class="subject-filter">
-              <option>5d 8h</option>
-            </select>
+    <section class="welcome-section">
+        
 
-          </div>
-          <div class="filter_R">
-
-          </div>
-        </div> --}}
+        <div class="action-buttons">
+            <button class="btn btn-primary" wire:click="gotoExam('{{$activeTab}}')">
+                
+                Strat Now
+            </button>
+            
+        </div>
+    </section>
 
 
     <section class="bannersection">

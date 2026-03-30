@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="ai-mascot">
-                <img src="../xhtml/images/n3.png" alt="">
+                <img src="{{ asset('public/assets/images/n3.png')}}" alt="">
             </div>
         </div>
 
@@ -93,7 +93,7 @@
     <section class="recent-questions">
         <div class="section-title">
             <h3>Your Recent Questions</h3>
-            <img src="../xhtml/images/n5.png" alt="">
+            <img src="{{ asset('public/assets/images/n5.png')}}" alt="">
             <span class="precious-badge">(Precious)</span>
         </div>
 
